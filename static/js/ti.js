@@ -23,7 +23,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Started";
-   // var openas = window.open("https://www.google.com", "_self")
+    var openas = window.open("https://www.google.com", "_self")
   }
 }, 1000);
 /*javascript: function doit() {
